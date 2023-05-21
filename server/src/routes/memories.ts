@@ -1,8 +1,7 @@
 import { FastifyInstance } from 'fastify'
 import { prisma } from '../lib/prisma'
 import { z } from 'zod'
-import { request } from 'http'
-// no typescript é obrigado a passar o tipo do parametro que você está passando por exemplo app
+
 export async function memoriesRoutes(app: FastifyInstance) {
   app.get('/memories', async () => {
     const memories = await prisma.memory.findMany({
