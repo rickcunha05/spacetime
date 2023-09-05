@@ -1,15 +1,22 @@
+import 'dotenv/config'
+
 import { fastify } from 'fastify'
-import { PrismaClient } from '@prisma/client'
 import { memoriesRoutes } from './Routes/memories'
 import cors from '@fastify/cors'
+import jwt from '@fastify/jwt'
+import { authRoutes } from './Routes/auth'
 
 const app = fastify()
 
 app.register(cors, {
   origin: true,
 })
+app.register(jwt, {
+  secret: 'spacetime',
+})
 
 app.register(memoriesRoutes)
+app.register(authRoutes)
 app
   .listen({
     port: 3333,
