@@ -42,11 +42,15 @@ export function NewMemoryForm() {
         },
       },
     )
+    console.log(formData.get('createdAt'))
 
     router.push('/')
   }
   return (
-    <form onSubmit={handleCreateMemory} className="flex flex-1 flex-col gap-2">
+    <form
+      onSubmit={handleCreateMemory}
+      className="flex flex-1 flex-col gap-2 py-16 "
+    >
       <div className="flex items-center gap-4">
         <label
           htmlFor="media"

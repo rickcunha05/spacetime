@@ -1,4 +1,4 @@
-import { View, Text, Switch, TextInput, ScrollView, Image } from 'react-native'
+import { View, Text, ScrollView, Image } from 'react-native'
 import NLWLogo from '../src/assets/nlw-spacetime-logo.svg'
 import * as SecureStore from 'expo-secure-store'
 import Icon from '@expo/vector-icons/Feather'
