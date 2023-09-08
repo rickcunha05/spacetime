@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "18"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "lint": "eslint src --ext .ts --fix"
+    "lint": "eslint src --ext .ts --fix",
+    "build": "tsup src",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +32,7 @@
     "axios": "^1.5.0",
     "cors": "^2.8.5",
     "fastify": "^4.22.2",
+    "tsup": "^7.2.0",
     "zod": "^3.22.2"
   }
 }
