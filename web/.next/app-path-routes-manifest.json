@@ -1,7 +1,0 @@
-{
-  "/page": "/",
-  "/icon.png/route": "/icon.png",
-  "/memories/new/page": "/memories/new",
-  "/api/auth/callback/route": "/api/auth/callback",
-  "/api/auth/logout/route": "/api/auth/logout"
-}
