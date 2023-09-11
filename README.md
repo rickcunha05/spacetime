@@ -5,7 +5,7 @@ Aplicação de recordação de memórias, onde o usuário poderá adicionar à u
  Conte suas historias e guarde seus momentos mais especiais.
 
 #  Saiba mais
-### <a href="https://rick-metaversus.netlify.app/"/> Clique aqui para conhecer o backend </a>
+### <a href="https://github.com/rickcunha05/spacetime/tree/main/server"/>  Clique aqui para conhecer o backend </a>
 ### <a href="https://github.com/rickcunha05/spacetime/tree/main/mobile"/> Clique aqui para conhecer a versão mobile </a>
 ### <a href="https://github.com/rickcunha05/spacetime/tree/main/web"/> Clique aqui para conhecer a versão web </a>
 
